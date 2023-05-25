@@ -1,0 +1,8 @@
+[package]
+name = "tr_reader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+byteorder = "1.4.3"
+tr_readable = { path = "../tr_readable" }
